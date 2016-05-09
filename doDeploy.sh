@@ -375,6 +375,7 @@ function deploy() {
     check_ssh_can_be_connect ${deploy_target_host_ip}
 
     # do core job
+    # TODO(Guodong Ding) if we need a git_project_clone "$project_clone_depends_1" here using auto judgment statement
     git_project_clone "$project_clone_depends_1"
     git_project_clone "$project_clone"
     maven_build_project "$project_clone_depends_1"
