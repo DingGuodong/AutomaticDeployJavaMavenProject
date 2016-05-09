@@ -18,7 +18,6 @@ License: Open source software
 project_clone_depends_1="ssh://git@xxx/xxx1.git"
 project_clone="ssh://git@xxx/xxx.git"
 deploy_target_host_ip="xxx.xxx.xxx.xxx"
-#project_top_directory_to_target_host="/data/docker/business-service/bs-core-01"
 project_top_directory_to_target_host="/path/to/deploy"
 # Setting how many days do you want save old releases, default is 10 days
 save_old_releases_for_days=10
