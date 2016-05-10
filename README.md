@@ -4,8 +4,6 @@ Linux Bash Shell Automatic Deploy Java Maven Project( Remote deploy supported)
 Please modify those setting in shell script file.
 
 ```bash
-project_clone_depends_1="ssh://git@xxx/xxx1.git"
-
 project_clone="ssh://git@xxx/xxx.git"
 
 deploy_target_host_ip="xxx.xxx.xxx.xxx"
