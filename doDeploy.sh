@@ -4,8 +4,8 @@
 #Execute this shell script to deploy Java projects built by Maven automatically on remote hosts.
 
 # debug option
-_XTRACE_FUNCTIONS=$(set +o | grep xtrace)
-set -o xtrace
+# _XTRACE_FUNCTIONS=$(set +o | grep xtrace)
+# set -o xtrace
 
 # define user friendly messages
 header="
@@ -787,4 +787,4 @@ fi
 main $@
 
 # debug option
-${_XTRACE_FUNCTIONS}
+# ${_XTRACE_FUNCTIONS}
